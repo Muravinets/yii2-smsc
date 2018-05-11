@@ -7,13 +7,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist ladamalina/yii2-smsc "*"
+php composer.phar require --prefer-dist muravinets/yii2-smsc "*"
 ```
 
 or add
 
 ```
-"ladamalina/yii2-smsc": "*"
+"muravinets/yii2-smsc": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -26,7 +26,7 @@ To use sender, you should configure it in the application configuration like the
 'components' => [
 	...
 	'sms' => [
-        'class'    => 'ladamalina\smsc\Smsc',
+        'class'    => 'muravinets\smsc\Smsc',
         'login'     => '',  // login
         'password'   => '', // plain password or lowercase password MD5-hash
         'post' => true, // use http POST method
