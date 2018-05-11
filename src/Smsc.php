@@ -1,6 +1,6 @@
 <?php
 
-namespace ladamalina\smsc;
+namespace muravinets\smsc;
 
 class Smsc extends \yii\base\Object
 {
